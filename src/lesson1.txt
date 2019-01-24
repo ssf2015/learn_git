@@ -1,5 +1,5 @@
 github 创建好一个项目后 使用git clone 克隆到本地
-git log 查看提交信息
+git log 查看提交信息 q退出
 git status 查看工作目录当前工作指令
 如果有本地有改动 git status会告诉你modify的文件
 上传：
