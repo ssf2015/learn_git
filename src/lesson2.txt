@@ -1,0 +1,10 @@
+多人协同开发时
+第n个人（n>=2）,需要：
+1 git clone
+2 修改文件后 先git pull 拉取远端最新代码
+3 然后git 三部曲 git add ./ git commit /git push
+
+
+
+总结：多人开发时 提交代码前先git pull
+（从远端拉取最新代码 然后和本地修改后的代码merge，git pull其实是git fetch和git merge的结合）
