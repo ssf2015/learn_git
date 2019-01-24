@@ -6,5 +6,7 @@
 
 
 
-总结：多人开发时 提交代码前先git pull
-（从远端拉取最新代码 然后和本地修改后的代码merge，git pull其实是git fetch和git merge的结合）
+总结：多人开发时 懒人方法： 先按照git三部曲提交数据，如果最后一步push失败 先pull再push
+（git pull其实就是把本地仓库的提交和中央仓库的提交进行合并）
+
+
