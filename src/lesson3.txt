@@ -1,0 +1,4 @@
+head master branch
+
+
+head通俗点说是"当前commit"的引用，永远永远永远指向当前的commit，所以你永远可以用 head 来操作当前 commit。
