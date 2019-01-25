@@ -6,8 +6,9 @@ push其实就是把本地暂存的推到远端
 比如说 你git clone的项目只有一个master 当你在本地的master 分支处于head状态时 git push 就ok的
 但是如果你本地新建了一个分支 就不能直接用git push了  为什么？ 因为远端没有啊 傻不傻！那要怎么办 ？直接git push origin <分支名>
 或者改一下git config的设置 把push.config的值设置成current 这样就自动推向远端仓库的同名分支，easy！
-为了以后方便我就这么改
+
 
 
 
 b1 test
+b2 test
