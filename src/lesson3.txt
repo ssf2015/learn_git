@@ -32,4 +32,4 @@ master 是 Git 中的默认 branch，它和其它 branch 的区别在于：
 branch 的创建、切换和删除：
 创建 branch 的方式是 git branch 名称 或 git checkout -b 名称（创建后自动切换）；
 切换的方式是 git checkout 名称；
-删除的方式是 git branch -d 名称。
+删除的方式是 git branch -d 名称。  强制删除git branch -D 名称  当你在分支上commit了内容 后面又用不到时可以用（慎用，删除后可能会引起不可回溯，也就是彻底死翘翘）
